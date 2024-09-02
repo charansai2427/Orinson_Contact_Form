@@ -1,0 +1,7 @@
+Error will come when we run any reactjs project
+
+	node_modules\ajv-keywords\dist\definitions\typeof.js
+
+To resolve above error install below command
+
+	npm install --save-dev ajv@8

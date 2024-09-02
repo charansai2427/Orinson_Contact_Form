@@ -1,0 +1,71 @@
+*{
+    box-sizing:inherit;
+  }
+  body{
+    background: white;
+    width:100%;
+    max-width: 800px;
+    font-family: Calibri, Arial, sans-serif;
+    padding:30px;
+    margin-left: 8em;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210604/pngtree-gradient-technology-background-blue-contact-image_724463.jpg');
+    background: #b92b27;  
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    background: linear-gradient(to right, #1565C0, #b92b27); 
+      }
+
+  label{
+    display:block;
+    margin:1em 0 .2em;
+    color: white;
+    font-weight: bold;
+  }
+  input, textarea{
+    display:block;
+    width:100%;
+    padding:.3em;
+    font-size:20px;
+    background-color:#fbfbfb;
+    border:solid 1px #CCC;
+    resize:vertical;
+  }
+  textarea{
+    min-height:80px;
+  }
+
+    .sub{
+      width: 7em;
+      height: 3em;
+      border: .5px solid lightgreen;
+      background: lightgreen;
+      outline: none;
+      color: white;
+      font-weight: bold;
+      transition:all .3s ease-out;
+  }
+
+  .nea{
+    margin-left: 20em;
+  }
+  @media screen and (min-width:600px) {
+    /*  make the form 2 columns */
+    form:after{
+      content:'';
+      display:block;
+      clear:both;
+    }
+    .column{
+      width:50%;
+      padding:1em;
+      float:left;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
