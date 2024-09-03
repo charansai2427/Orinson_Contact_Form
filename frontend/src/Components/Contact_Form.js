@@ -42,8 +42,8 @@ const ContactForm = () => {
         <div className='container ' style={{marginLeft:'5em'}}>
         <form onSubmit={handleSubmit} action="#" method="post">
         <h1 style={{marginLeft:'7.5em',color:'white',textAlign:'center'}}>Contact Form</h1>
-            <div className="column nea">
-                <label for="the-name" style={{textAlign:'start'}}>Your Name</label>
+            <div className="column">
+                <label for="the-name"className='name'>Your Name</label>
                 <input className='rounded' type="text" name="name" id="the-name" value={formData.name}
                     onChange={handleChange}
                     required />
@@ -54,7 +54,7 @@ const ContactForm = () => {
                     required />
             </div>
             <div className="column " style={{marginTop:'0em',marginLeft:'20em'}}>
-                <label for="the-message">Message</label>
+                <label for="the-message" className='mess'>Message</label>
                 <textarea className='rounded' name="message" id="the-message" value={formData.message}
                     onChange={handleChange}
                     required></textarea>
