@@ -39,28 +39,26 @@ const ContactForm = () => {
     };
 
     return (
-        <div className='container ' style={{marginLeft:'5em'}}>
+        <div className=' contact container w-50 shadow rounded mt-5' style={{marginLeft:'25em'}}>
         <form onSubmit={handleSubmit} action="#" method="post">
-        <h1 style={{marginLeft:'7.5em',color:'white',textAlign:'center'}}>Contact Form</h1>
-            <div className="column">
-                <label for="the-name"className='name'>Your Name</label>
+        <h1>Contact Form</h1>
+            <div className="column hole">
+                <label for="the-name"className='name'>Your Name :</label>
                 <input className='rounded' type="text" name="name" id="the-name" value={formData.name}
                     onChange={handleChange}
                     required />
 
-                <label for="the-email">Email Address</label>
+                <label for="the-email">Email ID :</label>
                 <input className='rounded' type="email" name="email" id="the-email" value={formData.email}
                     onChange={handleChange}
                     required />
-            </div>
-            <div className="column " style={{marginTop:'0em',marginLeft:'20em'}}>
-                <label for="the-message" className='mess'>Message</label>
-                <textarea className='rounded' name="message" id="the-message" value={formData.message}
+
+                <label for="the-message" className='mess'>Message :</label>
+                <textarea className='rounded ' name="message" id="the-message" value={formData.message}
                     onChange={handleChange}
                     required></textarea>
-                
                 <button className='mt-3 rounded-pill sub' type="submit" >Submit</button>
-            </div>  
+            </div>
         </form>
         </div>
     );

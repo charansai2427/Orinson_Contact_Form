@@ -2,27 +2,24 @@
   box-sizing:inherit;
 }
 body{
-  background: white;
   max-width: 800px;
   font-family: Calibri, Arial, sans-serif;
   padding:30px; 
-  background-image: url('https://t4.ftcdn.net/jpg/02/69/27/55/360_F_269275503_fL3Dx8hgvCDgrnuvbm8XLPHJ461QIM4o.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
     }
 
 label{
   display:block;
   margin:1em 0 .1em;
-  color: white;
+  color: black;
   font-weight: bold;
   margin-right: 13em;
   text-align: start;
+  width: 10em;
 }
 
 input, textarea{
   display:block;
-  width:100%;
+  width:15.5em;
   padding:.3em;
   font-size:20px;
   background-color:#fbfbfb;
@@ -44,14 +41,12 @@ textarea{
     transition:all .3s ease-out;
 }
 
-.column{
-  margin-left: 20em;
-}
-
 .mess{
   margin-right: 15.5em;
 }
-
+.hole{
+  margin: 0 0 0 25px; 
+}
 .name{
   margin-right: 15.5em;
   width: 10em;
